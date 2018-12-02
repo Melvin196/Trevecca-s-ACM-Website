@@ -1,0 +1,249 @@
+*{
+    margin: 0;    
+}
+
+.topnav img{
+    padding: none;
+    float: left;
+    margin: 0 0 0 0;
+}
+
+.topnav {
+    background-color: #663399;
+    overflow: hidden;
+    width:100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    min-height: 177px;
+    min-width: 160px;
+    font-size: 30px; 
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #562c80;
+    color: white;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+   
+   
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+    
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#threeColumns{
+    margin-top: 15px;
+}
+
+#sidebar1{
+    background-color: #ffffff;
+    min-height: 350px;
+    float: left;
+    width: 250px;
+    text-align: center;
+    border-right: 10px solid #562c80;
+    border-top: 10px solid #562c80;
+    /*border: 3px solid black; */
+}
+
+#sidebar2{
+    background-color: #ffffff;  
+    min-height: 350px;
+    float: right;
+    width: 250px;
+    text-align: center;
+    border-left: 10px solid #562c80;
+    border-top: 10px solid #562c80;
+    /*border: 3px solid black; */
+}
+
+#column1{
+    background-color: #ffffff;
+    min-height: 350px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    border-top: 10px solid #562c80;
+}
+
+footer{
+    background-color: #562c80;
+    min-height: 180px;
+}
+
+.footer{
+    text-align: center;
+    float: right;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-top: 0;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.footer a{
+    color: #ffffff;
+    padding-right: 40px;
+    padding-top: 0;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.footerLogo{
+    float: left;
+    padding-top: 60px;
+    padding-left: 15px;
+}
+
+.footers{
+    text-align: center;
+    float: right;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-top: 0;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.footers a{
+    color: #ffffff;
+    padding-right: 40px;
+    padding-top: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.footerLogos{
+    float: left;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.bodyA{
+    margin-top: 177px;
+    height: 700px;
+    width:100%;
+    background-color: white;
+    
+}
+
+.bodyA h1{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.bodyA p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
